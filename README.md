@@ -78,7 +78,7 @@ A common criticism of A/B testing is that it "slows you down" and that false pos
 ### **2. "False Positives and False Discovery Rates are High"**
 - **Misconception**: Because false positives occur, A/B test results are often seen as unreliable.
 - **Reality**:
-  - False positives and high FDRs are typically the result of **poor methodology**, not an inherent flaw in A/B testing itself. Common issues include:
+  - High False positives rates and high FDRs are typically the result of **poor methodology**, not an inherent flaw in A/B testing itself. Common issues include:
     - **Peeking**: Checking results repeatedly and stopping the test early when significance is reached.
     - **P-Hacking**: Testing multiple hypotheses or metrics without proper correction.
     - **Inadequate Sample Sizes**: Running tests with insufficient power to detect meaningful effects.
@@ -106,10 +106,9 @@ A common criticism of A/B testing is that it "slows you down" and that false pos
     
 ## Simulations
 The repository includes Python notebooks that simulate A/B tests to demonstrate the impact of poor methodology:
-1. **False Positives**: Simulating data under the null hypothesis to estimate the false positive rate.
-2. **Peeking**: Showing how interim analyses increase the likelihood of false positives.
-3. **P-Hacking**: Demonstrating how selective reporting can lead to misleading conclusions.
-4. **False Discovery Rate (FDR)**: Applying FDR control methods to reduce false discoveries.
+1. **Peeking**: Showing how interim analyses increase the likelihood of false positives.
+2. **P-Hacking**: Demonstrating how selective reporting can lead to misleading conclusions.
+3. **False Discovery Rate (FDR)**: Applying FDR control methods to reduce false discoveries.
 
 ## Best Practices
 As mentioned rigourous methodology is key such as:

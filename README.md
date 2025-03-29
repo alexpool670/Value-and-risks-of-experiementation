@@ -18,7 +18,7 @@ A/B testing is a cornerstone of data-driven decision-making, enabling businesses
 
 ## Why We Experiment
 Experimentation allows us to:
-- Make objective, data-driven decisions.
+- Make an objective and evaluate a new product agaisnt it allowing for data-driven decisions.
 - Establish causal relationships.
 - Iteratively improve products, strategies, or processes.
 - Mitigate risks by testing changes on a small scale.
@@ -26,7 +26,7 @@ Experimentation allows us to:
 ## The Importance of Strict Methodology
 Following a strict methodology ensures:
 - Valid hypothesis testing (e.g., null and alternative hypotheses, p-values).
-- Proper randomization and sample size determination.
+- Proper randomisation and sample size determination.
 - Avoidance of biases (e.g., blinding, control groups).
 
 ## Common Pitfalls in A/B Testing
@@ -38,28 +38,25 @@ This project explores the following pitfalls through simulations:
 
 ## Common Misconceptions
 There are several common misconceptions about A/B testing and experimentation that can lead to poor decisions:
-1. **"A Significant p-value Proves the Alternative Hypothesis"**:
-   - A significant p-value (e.g., p < 0.05) does not prove the alternative hypothesis; it only suggests that the observed data is unlikely under the null hypothesis.
-   - It does not indicate the magnitude or practical significance of the effect.
 
-2. **"More Data Always Leads to Better Results"**:
+1. **"More Data Always Leads to Better Results"**:
    - While larger sample sizes increase statistical power, they can also lead to detecting trivial effects that are not practically meaningful.
    - Proper sample size calculation is essential to balance power and relevance.
    - A different story for continuous metrics...
 
-3. **"Peeking at Results is Harmless"**:
+2. **"Peeking at Results is Harmless"**:
    - Checking results before the experiment is complete can inflate the false positive rate, leading to incorrect conclusions.
    - Sequential testing methods should be used if interim analyses are necessary.
 
-4. **"A/B Testing is Only for Large Companies"**:
+3. **"A/B Testing is Only for Large Companies"**:
    - A/B testing can be valuable for organizations of all sizes, as long as the experiments are designed and executed properly.
    - Even small-scale tests can provide actionable insights.
 
-5. **"All Metrics are Equally Important"**:
+4. **"All Metrics are Equally Important"**:
    - Not all metrics are equally relevant to the hypothesis being tested.
    - Focusing on too many metrics can increase the risk of false discoveries (multiple comparisons problem).
 
-6. **"A/B Testing is Only for Websites and Apps"**:
+5. **"A/B Testing is Only for Websites and Apps"**:
    - A/B testing principles apply to a wide range of fields, including marketing, healthcare, education, and more.
    - The methodology can be adapted to any context where causal inference is needed.
 

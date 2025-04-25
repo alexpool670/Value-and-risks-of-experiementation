@@ -14,7 +14,7 @@ This repository explores the importance of A/B testing and experimentation in da
 9. [Further Reading](#further-reading)
 
 ## Introduction
-A/B testing is a cornerstone of data-driven decision-making, enabling businesses and researchers to evaluate the impact of changes in a controlled and measurable way. However, without strict methodology, experimentation can lead to misleading conclusions. This project highlights the importance of rigorous experimentation and demonstrates key concepts through Python simulations.
+A/B testing is a cornerstone of data-driven decision-making, enabling businesses and researchers to evaluate the impact of changes in a controlled and measurable way. However, without strict methodology, experimentation can lead to unrealiable or misleading conclusions. This project highlights the importance of rigorous experimentation and demonstrates key concepts through Python simulations.
 
 ## Why We Experiment
 Experimentation allows us to:

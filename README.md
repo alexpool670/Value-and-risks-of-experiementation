@@ -115,5 +115,207 @@ As mentioned rigourous methodology is key such as:
 - Reporting all results transparently.
 
 ## Further Reading
+# Influential and Important Literature on A/B Testing
 
-### More to come...
+This document curates foundational, academic, and practitioner-oriented literature on A/B testing and online controlled experimentation.
+
+---
+
+## I. Foundational Works (Experimental Design & Statistics)
+
+- **R.A. Fisher – _The Design of Experiments_ (1935)**  
+  Foundational work introducing randomization, control groups, and hypothesis testing.  
+  - Free archive copy:  
+    https://archive.org/details/in.ernet.dli.2015.502684
+
+- **Box, G.E.P., Hunter, J.S., & Hunter, W.G. – _Statistics for Experimenters_**  
+  A core reference on design of experiments and statistical modeling.  
+  - Book page:  
+    https://www.wiley.com/en-us/Statistics+for+Experimenters%2C+2nd+Edition-p-9780471718130  
+  - Online PDF copy (verify license before use):  
+    https://vdoc.pub/documents/statistics-for-experimenters-design-innovation-and-discovery-g6ef8sdj3fc0
+
+---
+
+## II. Core Books on A/B Testing and Online Experiments
+
+- **Kohavi, R., Tang, D., & Xu, Y. – _Trustworthy Online Controlled Experiments_ (2020)**  
+  The definitive industry guide to large-scale online experimentation.  
+  - Publisher page (Cambridge University Press):  
+    https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59  
+  - Official Chapter 1 PDF:  
+    https://experimentguide.com/wp-content/uploads/TrustworthyOnlineControlledExperiments_PracticalGuideToABTesting_Chapter1.pdf  
+  - ResearchGate full-text upload (author-provided):  
+    https://www.researchgate.net/publication/339914315_Trustworthy_Online_Controlled_Experiments_A_Practical_Guide_to_AB_Testing
+
+- **Georgi Z. Georgiev – _Statistical Methods in Online A/B Testing_ (2019)**  
+  Practical statistical guidance for real-world experimentation.  
+  - Official site:  
+    https://www.abtestingstats.com/  
+  - Amazon page:  
+    https://www.amazon.com/dp/1694079724
+
+---
+
+## III. Related Books
+
+- **Lattimore, T. & Szepesvári, C. – _Bandit Algorithms_**  
+  Rigorous treatment of adaptive experimentation and exploration–exploitation trade-offs.  
+  - Free PDF (official):  
+    https://tor-lattimore.com/downloads/book/book.pdf
+
+- **Croll, A. & Yoskovitz, B. – _Lean Analytics_**  
+  Metrics-driven experimentation and decision-making.  
+  - Book page:  
+    https://leananalyticsbook.com/
+
+- **Leonard Mlodinow – _The Drunkard’s Walk_**  
+  Conceptual exploration of randomness and probability.  
+  - Book page:  
+    https://www.penguinrandomhouse.com/books/305605/the-drunkards-walk-by-leonard-mlodinow/
+
+- **Nassim Nicholas Taleb – _The Black Swan_**  
+  On uncertainty, rare events, and limits of statistical inference.  
+  - Book page:  
+    https://www.penguinrandomhouse.com/books/307644/the-black-swan-by-nassim-nicholas-taleb/
+
+---
+
+## IV. Influential Academic Papers (Open Access)
+
+- **Larsen et al. (2022) – _Statistical Challenges in Online Controlled Experiments_**  
+  Comprehensive review of modern A/B testing methodology.  
+  - arXiv PDF:  
+    https://arxiv.org/abs/2212.11366
+
+- **Jeunen (2023) – _A Common Misassumption in Online Experiments with Machine Learning Models_**  
+  Examines incorrect assumptions in ML-driven A/B tests.  
+  - arXiv PDF:  
+    https://arxiv.org/abs/2304.10900
+
+- **Xie et al. (2018) – _False Discovery Rate Controlled Heterogeneous Treatment Effect Detection_**  
+  Subgroup analysis with false discovery control.  
+  - arXiv PDF:  
+    https://arxiv.org/abs/1808.04904
+
+- **Guo & Deng (2015) – _Flexible Online Repeated Measures Experiment_**  
+  Introduces repeated-measures designs for variance reduction.  
+  - arXiv PDF:  
+    https://arxiv.org/abs/1501.00450
+
+---
+
+## V. Practitioner Articles
+
+- **Kohavi et al. – _Practical Guide to Controlled Experiments on the Web_ (KDD 2007)**  
+  One of the earliest and most influential practitioner papers.  
+  - Author-hosted version:  
+    https://exp-platform.com/practical-guide/
+
+- **Evan Miller – _How Not to Run an A/B Test_**  
+  Classic explanation of common A/B testing mistakes.  
+  - Article:  
+    https://www.evanmiller.org/how-not-to-run-an-ab-test.html
+
+---
+
+## VI. Industry Articles and Engineering Blogs on Experimentation
+
+Large technology companies have published influential articles describing how A/B testing is implemented at scale, including statistical innovations, infrastructure design, and organizational lessons.
+
+---
+
+### Google
+
+Google is one of the earliest and most influential adopters of large-scale online experimentation.
+
+- **Kohavi et al. – _Online Controlled Experiments at Large Scale_**  
+  Discusses scaling experimentation infrastructure and decision-making.  
+  https://ai.googleblog.com/2011/04/online-controlled-experiments-at.html
+
+---
+
+### Meta 
+
+Meta has published extensively on experimentation, metrics, and statistical rigor.
+
+- **Deng et al. – _Improving the Sensitivity of Online Controlled Experiments_**  
+  Introduces CUPED, a variance reduction technique now widely used across the industry.  
+  https://www.exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf
+
+- **Xu et al. – _Designing Online Experiments with Metric Guardrails_**  
+  Discusses balancing multiple metrics and preventing unintended regressions.  
+  https://engineering.fb.com/2016/03/29/data-infrastructure/designing-online-experiments-with-metric-guardrails/
+
+---
+
+### Microsoft
+
+Microsoft’s experimentation platform work strongly influenced modern A/B testing practice.
+
+- **Kohavi et al. – _Controlled Experiments on the Web: Survey and Practical Guide_**  
+  Early survey of experimentation practices across large web companies.  
+  https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/controlledeexperiments.pdf
+
+- **Dmitriev et al. – _A Dirty Dozen: Twelve Common Metric Interpretation Pitfalls in Online Controlled Experiments_**  
+  Highly cited paper on common mistakes in experiment analysis.  
+  https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dirtydozen.pdf
+
+---
+
+### Booking.com
+
+Booking.com is known for its strong experimentation culture and decentralized testing model.
+
+- **Booking.com – _Experimentation at Booking.com_**  
+  Overview of large-scale experimentation culture and infrastructure.  
+  https://booking.ai/experimentation-at-booking-com-1e2e2f9d0a7f
+
+- **Ronny Kohavi & Lukas Vermeer – _The Power of Online Experiments_ (Booking.com Tech Talks)**  
+  Discusses organizational and statistical challenges of experimentation.  
+  https://booking.ai/the-power-of-online-experiments-6d4e90b1c98c
+
+---
+
+### Spotify
+
+Spotify publishes articles focused on experimentation in product development and personalization.
+
+- **Spotify Engineering – _Experimentation at Spotify_**  
+  Overview of experimentation practices used across product teams.  
+  https://engineering.atspotify.com/2019/10/experimentation-at-spotify/
+
+- **Spotify R&D – _ABBA: A/B Testing at Scale_**  
+  Discusses internal tools and experimentation workflows.  
+  https://engineering.atspotify.com/2020/01/abba-ab-testing-at-scale/
+
+---
+
+### eBay
+
+eBay has published influential work on experimentation and causal inference especially in the context of a two sided marketplace.
+
+- **Guo et al. – _Practical Lessons from Predicting Clicks on Ads at Facebook and eBay_**  
+  Discusses causal inference and experiment-driven decision making.  
+  https://arxiv.org/abs/1407.0306
+
+- **eBay Tech Blog – _Experimentation and Causal Inference at eBay_**  
+  Overview of experimentation frameworks and causal challenges.  
+  https://tech.ebayinc.com/engineering/experimentation-and-causal-inference-at-ebay/
+
+---
+
+### Netflix
+
+Netflix focuses on experimentation for personalization and streaming quality.
+
+- **Netflix Tech Blog – _A/B Testing at Netflix_**  
+  Explains how experimentation supports personalization and UI decisions.  
+  https://netflixtechblog.com/ab-testing-at-netflix-6b1eb38c93e5
+
+- **Netflix Tech Blog – _Challenges in Online Controlled Experiments_**  
+  Discusses statistical and practical challenges unique to streaming services.  
+  https://netflixtechblog.com/challenges-in-online-controlled-experiments-66b7a8c6bb4d
+
+---
+

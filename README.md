@@ -252,6 +252,25 @@ Microsoft’s experimentation platform work strongly influenced modern A/B testi
 
 ---
 
+### Expedia Group
+- **Ronny Kohavi & Nanyu Chen - False Positives in A/B Tests*
+Discusses false postives results in A/B testing at scale.
+https://dl.acm.org/doi/abs/10.1145/3637528.3671631
+  
+- **Preventing Revenue Loss With Real-Time A/B Test Monitoring**  
+Expedia Group Technology engineers describe building a real-time A/B test monitoring and automatic suspension system using Apache Flink. This system is part of their internal platform (Expedia Group Test & Learn) to detect and stop poorly performing experiments within minutes. 
+https://medium.com/expedia-group-tech/preventing-revenue-loss-with-real-time-a-b-test-monitoring-605698817457
+
+- **How to Size For Online Experiments With Ratio Metrics**  
+An Expedia Group Technology article that explains **statistical sample size calculations for online experiments with ratio metrics** — important for proper design and power analysis in frequent experimentation contexts.
+https://medium.com/expedia-group-tech/how-to-size-for-online-experiments-with-ratio-metrics-3d57362f1967
+
+- **Measuring Marketing Success: The Power of Incrementality and Geo Testing**  
+An article from Expedia Group Technology that discusses **geo testing and incrementality analysis**, including statistical methods extending beyond traditional A/B tests. 
+https://medium.com/expedia-group-tech/measuring-marketing-success-the-power-of-incrementality-and-geo-testing-1acd4291545d
+
+---
+
 ### Booking.com
 
 Booking.com is known for its strong experimentation culture and decentralized testing model.

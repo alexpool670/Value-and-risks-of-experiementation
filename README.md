@@ -123,12 +123,12 @@ This document curates foundational, academic, and practitioner-oriented literatu
 
 ## I. Foundational Works (Experimental Design & Statistics)
 
-- **R.A. Fisher – _The Design of Experiments_ (1935)**  
+- **R.A. Fisher - _The Design of Experiments_ (1935)**  
   Foundational work introducing randomization, control groups, and hypothesis testing.  
   - Free archive copy:  
     https://archive.org/details/in.ernet.dli.2015.502684
 
-- **Box, G.E.P., Hunter, J.S., & Hunter, W.G. – _Statistics for Experimenters_**  
+- **Box, G.E.P., Hunter, J.S., & Hunter, W.G. - _Statistics for Experimenters_**  
   A core reference on design of experiments and statistical modeling.  
   - Book page:  
     https://www.wiley.com/en-us/Statistics+for+Experimenters%2C+2nd+Edition-p-9780471718130  
@@ -139,66 +139,57 @@ This document curates foundational, academic, and practitioner-oriented literatu
 
 ## II. Core Books on A/B Testing and Online Experiments
 
-- **Kohavi, R., Tang, D., & Xu, Y. – _Trustworthy Online Controlled Experiments_ (2020)**  
+- **Kohavi, R., Tang, D., & Xu, Y. - _Trustworthy Online Controlled Experiments_ (2020)**  
   The definitive industry guide to large-scale online experimentation.  
-  - Publisher page (Cambridge University Press):  
-    https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59  
-  - Official Chapter 1 PDF:  
-    https://experimentguide.com/wp-content/uploads/TrustworthyOnlineControlledExperiments_PracticalGuideToABTesting_Chapter1.pdf  
-  - ResearchGate full-text upload (author-provided):  
-    https://www.researchgate.net/publication/339914315_Trustworthy_Online_Controlled_Experiments_A_Practical_Guide_to_AB_Testing
+  - Publisher page (Cambridge University Press):  https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59  
+  - Official Chapter 1 PDF:  https://experimentguide.com/wp-content/uploads/TrustworthyOnlineControlledExperiments_PracticalGuideToABTesting_Chapter1.pdf  
+  - ResearchGate full-text upload (author-provided):  https://www.researchgate.net/publication/339914315_Trustworthy_Online_Controlled_Experiments_A_Practical_Guide_to_AB_Testing
 
-- **Georgi Z. Georgiev – _Statistical Methods in Online A/B Testing_ (2019)**  
+- **Georgi Z. Georgiev - _Statistical Methods in Online A/B Testing_ (2019)**  
   Practical statistical guidance for real-world experimentation.  
-  - Official site:  
-    https://www.abtestingstats.com/  
-  - Amazon page:  
-    https://www.amazon.com/dp/1694079724
+  - Official site:   https://www.abtestingstats.com/  
+  - Amazon page:  https://www.amazon.com/dp/1694079724
 
 ---
 
 ## III. Related Books
 
-- **Lattimore, T. & Szepesvári, C. – _Bandit Algorithms_**  
+- **Lattimore, T. & Szepesvári, C. - _Bandit Algorithms_**  
   Rigorous treatment of adaptive experimentation and exploration–exploitation trade-offs.  
-  - Free PDF (official):  
-    https://tor-lattimore.com/downloads/book/book.pdf
+  - Free PDF (official):  https://tor-lattimore.com/downloads/book/book.pdf
 
-- **Croll, A. & Yoskovitz, B. – _Lean Analytics_**  
+- **Croll, A. & Yoskovitz, B. - _Lean Analytics_**  
   Metrics-driven experimentation and decision-making.  
-  - Book page:  
-    https://leananalyticsbook.com/
+  - Book page:   https://leananalyticsbook.com/
 
-- **Leonard Mlodinow – _The Drunkard’s Walk_**  
+- **Leonard Mlodinow - _The Drunkard’s Walk_**  
   Conceptual exploration of randomness and probability.  
-  - Book page:  
-    https://www.penguinrandomhouse.com/books/305605/the-drunkards-walk-by-leonard-mlodinow/
+  - Book page:  https://www.penguinrandomhouse.com/books/305605/the-drunkards-walk-by-leonard-mlodinow/
 
-- **Nassim Nicholas Taleb – _The Black Swan_**  
+- **Nassim Nicholas Taleb - _The Black Swan_**  
   On uncertainty, rare events, and limits of statistical inference.  
-  - Book page:  
-    https://www.penguinrandomhouse.com/books/307644/the-black-swan-by-nassim-nicholas-taleb/
+  - Book page:  https://www.penguinrandomhouse.com/books/307644/the-black-swan-by-nassim-nicholas-taleb/
 
 ---
 
 ## IV. Influential Academic Papers (Open Access)
 
-- **Larsen et al. (2022) – _Statistical Challenges in Online Controlled Experiments_**  
+- **Larsen et al. (2022) - _Statistical Challenges in Online Controlled Experiments_**  
   Comprehensive review of modern A/B testing methodology.  
   - arXiv PDF:  
     https://arxiv.org/abs/2212.11366
 
-- **Jeunen (2023) – _A Common Misassumption in Online Experiments with Machine Learning Models_**  
+- **Jeunen (2023) - _A Common Misassumption in Online Experiments with Machine Learning Models_**  
   Examines incorrect assumptions in ML-driven A/B tests.  
   - arXiv PDF:  
     https://arxiv.org/abs/2304.10900
 
-- **Xie et al. (2018) – _False Discovery Rate Controlled Heterogeneous Treatment Effect Detection_**  
+- **Xie et al. (2018) - _False Discovery Rate Controlled Heterogeneous Treatment Effect Detection_**  
   Subgroup analysis with false discovery control.  
   - arXiv PDF:  
     https://arxiv.org/abs/1808.04904
 
-- **Guo & Deng (2015) – _Flexible Online Repeated Measures Experiment_**  
+- **Guo & Deng (2015) - _Flexible Online Repeated Measures Experiment_**  
   Introduces repeated-measures designs for variance reduction.  
   - arXiv PDF:  
     https://arxiv.org/abs/1501.00450
@@ -207,15 +198,13 @@ This document curates foundational, academic, and practitioner-oriented literatu
 
 ## V. Practitioner Articles
 
-- **Kohavi et al. – _Practical Guide to Controlled Experiments on the Web_ (KDD 2007)**  
+- **Kohavi et al. - _Practical Guide to Controlled Experiments on the Web_ (KDD 2007)**  
   One of the earliest and most influential practitioner papers.  
-  - Author-hosted version:  
-    https://exp-platform.com/practical-guide/
+  - Author-hosted version:  https://exp-platform.com/practical-guide/
 
-- **Evan Miller – _How Not to Run an A/B Test_**  
+- **Evan Miller - _How Not to Run an A/B Test_**  
   Classic explanation of common A/B testing mistakes.  
-  - Article:  
-    https://www.evanmiller.org/how-not-to-run-an-ab-test.html
+  - Article:  https://www.evanmiller.org/how-not-to-run-an-ab-test.html
 
 ---
 
@@ -229,7 +218,7 @@ Large technology companies have published influential articles describing how A/
 
 Google is one of the earliest and most influential adopters of large-scale online experimentation.
 
-- **Kohavi et al. – _Online Controlled Experiments at Large Scale_**  
+- **Kohavi et al. - _Online Controlled Experiments at Large Scale_**  
   Discusses scaling experimentation infrastructure and decision-making.  
   https://ai.googleblog.com/2011/04/online-controlled-experiments-at.html
 
@@ -239,11 +228,11 @@ Google is one of the earliest and most influential adopters of large-scale onlin
 
 Meta has published extensively on experimentation, metrics, and statistical rigor.
 
-- **Deng et al. – _Improving the Sensitivity of Online Controlled Experiments_**  
+- **Deng et al. - _Improving the Sensitivity of Online Controlled Experiments_**  
   Introduces CUPED, a variance reduction technique now widely used across the industry.  
   https://www.exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf
 
-- **Xu et al. – _Designing Online Experiments with Metric Guardrails_**  
+- **Xu et al. - _Designing Online Experiments with Metric Guardrails_**  
   Discusses balancing multiple metrics and preventing unintended regressions.  
   https://engineering.fb.com/2016/03/29/data-infrastructure/designing-online-experiments-with-metric-guardrails/
 
@@ -253,11 +242,11 @@ Meta has published extensively on experimentation, metrics, and statistical rigo
 
 Microsoft’s experimentation platform work strongly influenced modern A/B testing practice.
 
-- **Kohavi et al. – _Controlled Experiments on the Web: Survey and Practical Guide_**  
+- **Kohavi et al. - _Controlled Experiments on the Web: Survey and Practical Guide_**  
   Early survey of experimentation practices across large web companies.  
   https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/controlledeexperiments.pdf
 
-- **Dmitriev et al. – _A Dirty Dozen: Twelve Common Metric Interpretation Pitfalls in Online Controlled Experiments_**  
+- **Dmitriev et al. - _A Dirty Dozen: Twelve Common Metric Interpretation Pitfalls in Online Controlled Experiments_**  
   Highly cited paper on common mistakes in experiment analysis.  
   https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/dirtydozen.pdf
 
@@ -267,27 +256,50 @@ Microsoft’s experimentation platform work strongly influenced modern A/B testi
 
 Booking.com is known for its strong experimentation culture and decentralized testing model.
 
-- **Booking.com – _Experimentation at Booking.com_**  
+- **Booking.com - _Experimentation at Booking.com_**  
   Overview of large-scale experimentation culture and infrastructure.  
   https://booking.ai/experimentation-at-booking-com-1e2e2f9d0a7f
 
-- **Ronny Kohavi & Lukas Vermeer – _The Power of Online Experiments_ (Booking.com Tech Talks)**  
+- **Ronny Kohavi & Lukas Vermeer - _The Power of Online Experiments_ (Booking.com Tech Talks)**  
   Discusses organizational and statistical challenges of experimentation.  
   https://booking.ai/the-power-of-online-experiments-6d4e90b1c98c
+  
+- **Role of Experimentation at Booking.com** (Booking.com partner magazine)  
+  Overview of how experimentation is embedded in product culture.  
+  https://partner.booking.com/en-gb/click-magazine/industry-perspectives/role-experimentation-bookingcom
+  
+- **Understanding Mechanisms of Change in Online Experiments at Booking.com**  
+  Discusses mediation analysis in A/B testing and organizer practices.  
+  https://booking.ai/understanding-mechanisms-of-change-in-online-experiments-at-booking-com-629201ec74ee 
 
+- **Democratizing Online Controlled Experiments at Booking.com (arXiv)**  
+  Academic paper by Vermeer et al. explaining Booking.com’s experimentation system and culture.  
+  https://arxiv.org/abs/1710.08217 ]
 ---
 
 ### Spotify
 
 Spotify publishes articles focused on experimentation in product development and personalization.
 
-- **Spotify Engineering – _Experimentation at Spotify_**  
+- **Spotify Engineering - _Experimentation at Spotify_**  
   Overview of experimentation practices used across product teams.  
   https://engineering.atspotify.com/2019/10/experimentation-at-spotify/
 
-- **Spotify R&D – _ABBA: A/B Testing at Scale_**  
+- **Spotify R&D - _ABBA: A/B Testing at Scale_**  
   Discusses internal tools and experimentation workflows.  
   https://engineering.atspotify.com/2020/01/abba-ab-testing-at-scale/
+
+- **Experiment like Spotify: A/B Tests and Rollouts**  
+  Discusses how Spotify uses A/B tests and rollouts for product development and safe rollout practices.  
+  https://confidence.spotify.com/blog/ab-tests-and-rollouts 
+
+- **Risk-Aware Product Decisions in A/B Tests with Multiple Metrics**  
+  Describes how Spotify integrates success, guardrail, and quality metrics into decision rules for experiments.  
+  https://engineering.atspotify.com/2024/3/risk-aware-product-decisions-in-a-b-tests-with-multiple-metrics 
+
+- **Better Product Decisions with Guardrail Metrics**  
+  Discusses how experimentation supports broader product decisions with multi-metric tracking.  
+  https://confidence.spotify.com/blog/better-decisions-with-guardrails
 
 ---
 
@@ -295,13 +307,18 @@ Spotify publishes articles focused on experimentation in product development and
 
 eBay has published influential work on experimentation and causal inference especially in the context of a two sided marketplace.
 
-- **Guo et al. – _Practical Lessons from Predicting Clicks on Ads at Facebook and eBay_**  
-  Discusses causal inference and experiment-driven decision making.  
-  https://arxiv.org/abs/1407.0306
+- **Increase A/B Testing Power by Combining Experiments**  
+  eBay explains using a weighted z-test to combine results from multiple tests to increase power.  
+  https://innovation.ebayinc.com/stories/increase-a-b-testing-power-by-combining-experiments/ 
 
-- **eBay Tech Blog – _Experimentation and Causal Inference at eBay_**  
-  Overview of experimentation frameworks and causal challenges.  
-  https://tech.ebayinc.com/engineering/experimentation-and-causal-inference-at-ebay/
+- **Measuring Success with Experimentation – eBay Innovation Stories**  
+  Offers practical guidance on how eBay frames success metrics and measurement strategies.  
+  https://innovation.ebayinc.com/stories/measuring-success-with-experimentation/ 
+
+- **Discussion on eBay Experimentation Systems** (industry podcast/summary)  
+  A conversation about cultural and technical challenges at eBay.  
+  https://brianpoe.substack.com/p/experimentation-at-ebay-with-benjamin 
+
 
 ---
 
@@ -309,7 +326,7 @@ eBay has published influential work on experimentation and causal inference espe
 
 Netflix focuses on experimentation for personalization and streaming quality.
 
-- **Netflix Tech Blog – _A/B Testing at Netflix_**  
+- **Netflix Tech Blog - _A/B Testing at Netflix_**  
   Explains how experimentation supports personalization and UI decisions.  
   https://netflixtechblog.com/ab-testing-at-netflix-6b1eb38c93e5
 
@@ -319,3 +336,14 @@ Netflix focuses on experimentation for personalization and streaming quality.
 
 ---
 
+### Additional Engineering or Third-Party Summaries
+
+- **Deconstruction of Experimentation Infrastructure (Swati’s Blog)**  
+  Covers practices at Netflix, Booking.com, and others in the context of building experimentation systems.  
+  https://deconstructwithswati.com/blog/experimentation-infrastructure-ab-testing-in-practice 
+
+- **Industry A/B Testing Lessons (Deepak Karkala)**  
+  Summarizes experimentation platform practices across platforms including Netflix, Twitter, DoorDash, and more.  
+  https://deepak-karkala.github.io/blog/mlops/ch12_retrain_online_testing/guide_ab_testing_industry_lessons.html 
+
+---
